@@ -79,45 +79,5 @@ ____
 
 | ВВОД | ВЫВОД |
 |----:|:----:|
-| 2<br/>ceo,1<br/>co_founder,1<br/>3<br/>arcady_volozh,ceo,6,100<br/>elon_musk,ceo,5,0<br/>ilya_segalovich,co_founder,6,10 | arcady_volozh<br/>ilya_segalovich |
+| [{"id": 1, "name": "Asus notebook","price": 1564,"date": "23.09.2021"},{"id": 2, "name": "Earpods", "price": 2200, "date": "10.01.2022"},{"id": 3, "name": "Keyboard", "price": 2500, "date": "05.06.2020"}, {"id": 4, "name": "Dell notebook","price": 2300,"date": "23.09.2021"}]<br/>NAME_CONTAINS notebook<br/>PRICE_GREATER_THAN 2000<br/>PRICE_LESS_THAN 2400<br/>DATE_AFTER 12.09.2021<br/>DATE_BEFORE 02.01.2022<br/> | [{"id": 4, "name": "Dell notebook", "price": 2300, "date": "23.09.2021"}] |
 
-
-### Пример 2
-
-| ВВОД | ВЫВОД |
-|----:|:----:|
-| 1<br/>co_founder,1<br/>2<br/>elon_musk,co_founder,6,200<br/>ilya_segalovich,co_founder,6,100 | ilya_segalovich |
-
-
-### Пример 3
-
-| ВВОД | ВЫВОД |
-|----:|:----:|
-| 2<br/>developer,2<br/>hacker,3<br/>5<br/>anonymous,hacker,6,0<br/>bjarne_stroustrup,developer,6,1<br/>julian_assange,hacker,5,100500<br/>bill_gates,developer,3,1<br/>guccifer,hacker,2,0 | anonymous<br/>bill_gates<br/>bjarne_stroustrup<br/>guccifer<br/>julian_assange |
-
-
-### Пример 4
-
-| ВВОД | ВЫВОД |
-|----:|:----:|
-| 2<br/>plant,2<br/>gardener,1<br/>5<br/>demeter,gardener,4,12<br/>acacia,plant,0,5<br/>cactus,plant,0,1<br/>ficus,plant,0,4<br/>palm,plant,0,3 | cactus<br/>demeter<br/>palm |
-
-### Примечания
-##### Пояснение к первому тестовому примеру.
-
-В первом тестовом примере на вакансию «ceo» претендуют два кандидата — у ‘arcady_volozh’ решено 6 задач и 100 штрафа, у ‘elon_musk’ — решено 5 задач и 0 штрафа. В первую очередь сравнение идет по задачам: 6>5, поэтому в следующий этап проходит именно ‘arcady_volozh’.
-<br/>
-
-##### Пояснение ко второму тестовому примеру.
-
-Во втором тестовом примере у обоих претендентов одинаковое количество решенных задач, но у ‘ilya_segalovich’ штраф 100, что меньше штрафа 200 у ‘elon_musk’. Поэтому в следующий этап проходит ‘ilya_segalovich’.
-<br/>
-
-##### Пояснение к третьему тестовому примеру.
-
-В третьем тестовом примере важно отметить, что в ответе прошедшие кандидаты идут в объединенном списке отсортированные в лексикографическом порядке независимо от своего приоритета при отборе и выбранной ими вакансии.
-<br/>
-
-##### Пояснение к четвертому тестовому примеру.
-
-В четвертом тестовом примере развернулась борьба за должность офисного растения. Хотя все кандидаты решили 0 задач на соревновании, ‘cactus’ и ‘palm’ набрали меньше всего штрафа, поэтому именно их приглашают в следующий этап отбора.
