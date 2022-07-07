@@ -31,7 +31,7 @@ ____
 
 Первая строка входных данных содержит список товаров в формате JSON.
 
-Следующие 5 строк имеют вид qi vi — фильтр и соответствующее ему актуальное значение.
+Следующие 5 строк имеют вид q<sub>i</sub> v<sub>i</sub> — фильтр и соответствующее ему актуальное значение.
 
 Подробное описание формата списка товаров
 
@@ -50,11 +50,11 @@ ____
 Подробное описание формата фильтров
 
 Гарантируется, что:
-- все qi различны между собой;
-- qi является строкой из множества (NAME_CONTAINS, PRICE_GREATER_THAN, PRICE_LESS_THAN, DATE_BEFORE, DATE_AFTER);
-- в фильтре ‘NAME_CONTAINS’ vi представляет из себя строку (1≤|vi|≤100), содержащую только строчные и заглавные латинские буквы;
-- в фильтрах ‘PRICE_GREATER_THAN’ и ‘PRICE_LESS_THAN’ vi представляет из себя целое число (0≤vi≤231−1);
-- в фильтрах ‘DATE_BEFORE’ и ‘DATE_AFTER’ vi представляет из себя строку в формате «dd.MM.yyyy» (01.01.1970≤vi≤31.12.2070).
+- все q<sub>i</sub> различны между собой;
+- q<sub>i</sub> является строкой из множества (NAME_CONTAINS, PRICE_GREATER_THAN, PRICE_LESS_THAN, DATE_BEFORE, DATE_AFTER);
+- в фильтре ‘NAME_CONTAINS’ v<sub>i</sub> представляет из себя строку (1≤|v<sub>i</sub>|≤100), содержащую только строчные и заглавные латинские буквы;
+- в фильтрах ‘PRICE_GREATER_THAN’ и ‘PRICE_LESS_THAN’ v<sub>i</sub> представляет из себя целое число (0≤v<sub>i</sub>≤2<sup>31</sup>−1);
+- в фильтрах ‘DATE_BEFORE’ и ‘DATE_AFTER’ v<sub>i</sub> представляет из себя строку в формате «dd.MM.yyyy» (01.01.1970≤v<sub>i</sub>≤31.12.2070).
 
 
 :bangbang: <b>Формат вывода</b>
@@ -80,4 +80,3 @@ ____
 | ВВОД | ВЫВОД |
 |----:|:----:|
 | [{"id": 1, "name": "Asus notebook","price": 1564,"date": "23.09.2021"},{"id": 2, "name": "Earpods", "price": 2200, "date": "10.01.2022"},{"id": 3, "name": "Keyboard", "price": 2500, "date": "05.06.2020"}, {"id": 4, "name": "Dell notebook","price": 2300,"date": "23.09.2021"}]<br/>NAME_CONTAINS notebook<br/>PRICE_GREATER_THAN 2000<br/>PRICE_LESS_THAN 2400<br/>DATE_AFTER 12.09.2021<br/>DATE_BEFORE 02.01.2022<br/> | [{"id": 4, "name": "Dell notebook", "price": 2300, "date": "23.09.2021"}] |
-
