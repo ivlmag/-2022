@@ -57,7 +57,7 @@ ____
 
 | ВВОД | ВЫВОД |
 |----:|:----:|
-| 2<br/>ceo,1<br/>co_founder,1<br/>3<br/>arcady_volozh,ceo,6,100<br/>elon_musk,ceo,5,0<br/>ilya_segalovich,co_founder,6,10 | arcady_volozh<br/>ilya_segalovich |
+| a + b = b + a | -1 |
 
 
 ### Пример 2
@@ -74,11 +74,7 @@ ____
 | 2<br/>developer,2<br/>hacker,3<br/>5<br/>anonymous,hacker,6,0<br/>bjarne_stroustrup,developer,6,1<br/>julian_assange,hacker,5,100500<br/>bill_gates,developer,3,1<br/>guccifer,hacker,2,0 | anonymous<br/>bill_gates<br/>bjarne_stroustrup<br/>guccifer<br/>julian_assange |
 
 
-### Пример 4
 
-| ВВОД | ВЫВОД |
-|----:|:----:|
-| 2<br/>plant,2<br/>gardener,1<br/>5<br/>demeter,gardener,4,12<br/>acacia,plant,0,5<br/>cactus,plant,0,1<br/>ficus,plant,0,4<br/>palm,plant,0,3 | cactus<br/>demeter<br/>palm |
 
 ### Примечания
 ##### Пояснение к первому тестовому примеру.
@@ -94,8 +90,3 @@ ____
 ##### Пояснение к третьему тестовому примеру.
 
 В третьем тестовом примере важно отметить, что в ответе прошедшие кандидаты идут в объединенном списке отсортированные в лексикографическом порядке независимо от своего приоритета при отборе и выбранной ими вакансии.
-<br/>
-
-##### Пояснение к четвертому тестовому примеру.
-
-В четвертом тестовом примере развернулась борьба за должность офисного растения. Хотя все кандидаты решили 0 задач на соревновании, ‘cactus’ и ‘palm’ набрали меньше всего штрафа, поэтому именно их приглашают в следующий этап отбора.
