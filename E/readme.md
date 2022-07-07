@@ -64,14 +64,14 @@ ____
 
 | ВВОД | ВЫВОД |
 |----:|:----:|
-| 1<br/>co_founder,1<br/>2<br/>elon_musk,co_founder,6,200<br/>ilya_segalovich,co_founder,6,100 | ilya_segalovich |
+| d + (a + (b + c) = (a + b) + c + d | 5 |
 
 
 ### Пример 3
 
 | ВВОД | ВЫВОД |
 |----:|:----:|
-| 2<br/>developer,2<br/>hacker,3<br/>5<br/>anonymous,hacker,6,0<br/>bjarne_stroustrup,developer,6,1<br/>julian_assange,hacker,5,100500<br/>bill_gates,developer,3,1<br/>guccifer,hacker,2,0 | anonymous<br/>bill_gates<br/>bjarne_stroustrup<br/>guccifer<br/>julian_assange |
+| (a((b + c) = ab + bc | -1 |
 
 
 
