@@ -45,28 +45,28 @@ ____
 ### Пример 1
 
 | ВВОД | ВЫВОД |
-|----:|:----:|
+|:----|:----:|
 | 2<br/>ceo,1<br/>co_founder,1<br/>3<br/>arcady_volozh,ceo,6,100<br/>elon_musk,ceo,5,0<br/>ilya_segalovich,co_founder,6,10 | arcady_volozh<br/>ilya_segalovich |
 
 
 ### Пример 2
 
 | ВВОД | ВЫВОД |
-|----:|:----:|
+|:----|:----:|
 | 1<br/>co_founder,1<br/>2<br/>elon_musk,co_founder,6,200<br/>ilya_segalovich,co_founder,6,100 | ilya_segalovich |
 
 
 ### Пример 3
 
 | ВВОД | ВЫВОД |
-|----:|:----:|
+|:----|:----:|
 | 2<br/>developer,2<br/>hacker,3<br/>5<br/>anonymous,hacker,6,0<br/>bjarne_stroustrup,developer,6,1<br/>julian_assange,hacker,5,100500<br/>bill_gates,developer,3,1<br/>guccifer,hacker,2,0 | anonymous<br/>bill_gates<br/>bjarne_stroustrup<br/>guccifer<br/>julian_assange |
 
 
 ### Пример 4
 
 | ВВОД | ВЫВОД |
-|----:|:----:|
+|:----|:----:|
 | 2<br/>plant,2<br/>gardener,1<br/>5<br/>demeter,gardener,4,12<br/>acacia,plant,0,5<br/>cactus,plant,0,1<br/>ficus,plant,0,4<br/>palm,plant,0,3 | cactus<br/>demeter<br/>palm |
 
 ### Примечания
