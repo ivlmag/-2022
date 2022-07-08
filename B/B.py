@@ -41,7 +41,7 @@ def main():
 
 		names = [name[0] for name in s]
 		next_step.extend(names)
-		next_step = next_step[0:vacancies[position]] #Топ кандидитов
+		next_step = next_step[0:vacancies[position]] #Топ кандидатов
 		output.extend(next_step)
 		next_step = []
 
